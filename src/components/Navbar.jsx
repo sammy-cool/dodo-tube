@@ -1,6 +1,8 @@
 import { Stack } from "@mui/material";
 import { Link } from "react-router-dom";
-import BRAND_LOGO  from "../images/dodo-tube.png";
+
+import BRAND_LOGO from "../images/dodo-tube.png";
+import SearchBar from "./SearchBar";
 
 const Navbar = () => {
   return (
@@ -15,9 +17,10 @@ const Navbar = () => {
         justifyContent: "space-between",
       }}
     >
-      <Link to="/" style={{ display: 'flex', alignItems: 'center' }} >
-      <img src={BRAND_LOGO} alt="BRAND_LOGO" height={45} />
+      <Link to="/" style={{ display: "flex", alignItems: "center" }}>
+        <img src={BRAND_LOGO} alt="BRAND_LOGO" height={45} />
       </Link>
+      <SearchBar />
     </Stack>
   );
 };
