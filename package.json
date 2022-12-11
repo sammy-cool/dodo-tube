@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "npm run start",
-    "prod": "set \"CI=false\" && npm install && npm run build"
+    "prod": "npm install && npm run build && set \"CI=false\""
   },
   "eslintConfig": {
     "extends": [
