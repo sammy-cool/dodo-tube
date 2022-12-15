@@ -11,12 +11,13 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import { YouTube } from '@mui/icons-material';
 
 export const BRAND_LOGO = '../images/dodo-tube.png';
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
-  { name: 'DODO | uuutube', icon: <CodeIcon />, },
+  { name: 'wannaB gaming', icon: <YouTube />, },
   { name: 'Coding', icon: <CodeIcon />, },
   { name: 'ReactJS', icon: <CodeIcon />, },
   { name: 'NextJS', icon: <CodeIcon />, },
@@ -34,9 +35,9 @@ export const categories = [
   { name: 'Crypto', icon: <DeveloperModeIcon />, },
 ];
 
-export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
-export const demoChannelUrl = '/channel/UCmXmlB4-HJytD7wek0Uo97A';
-export const demoVideoUrl = '/video/GDa8kZLNhJ4';
-export const demoChannelTitle = 'DODO | uuutube';
-export const demoVideoTitle = 'BGMI Gameplay';
-export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png'
+export const demoThumbnailUrl = 'https://i.ytimg.com/an_webp/S_PA8dLS50w/mqdefault_6s.webp?du=3000&sqp=CKzA7JwG&rs=AOn4CLAhgJWrKipfdHeKJriQzrmFsT_EWg';
+export const demoChannelUrl = '/@wannaBgaming';
+export const demoVideoUrl = '/watch?v=S_PA8dLS50w';
+export const demoChannelTitle = 'wannaBgaming | uuutube';
+export const demoVideoTitle = 'wannaBgaming';
+export const demoProfilePicture = 'https://yt3.ggpht.com/ZsPEONkZ4uYQh9hMHPcJ7uvw6xt3DVOIKwP0gxBSbKySXILRZpx7pz_18PeUAPPCohefudr-2g=s88-c-k-c0x00ffffff-no-rj'
